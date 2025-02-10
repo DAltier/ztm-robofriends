@@ -1,11 +1,8 @@
 import React from 'react';
-// import ReactDOM from 'react-dom'; The new way to import createRoot:
 import { createRoot } from 'react-dom/client';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 
-//import thunkMiddleware from 'redux-thunk';
-//NEW way of importing redux-thunk:
 import { thunk } from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import 'tachyons';
